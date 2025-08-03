@@ -1,8 +1,8 @@
 #!/bin/bash
 
 URL_ALVO="https://www.google.com.br"
-WEBHOOK_URL="aqui voce coloca seu webhookurl"
-LOG_FILE="aqui voce coloca o diretorio da sua pasta de log"
+WEBHOOK_URL="aqui_voce_coloca_seu_webhook_url_completo" # Ex: https://discord.com/api/webhooks/...
+LOG_FILE="aqui_voce_coloca_o_diretorio_completo_do_seu_arquivo_de_log" # Ex: $HOME/alerta-infra/logs/api_monitor.log
 
 /usr/bin/mkdir -p "$(dirname "$LOG_FILE")"
 
