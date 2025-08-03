@@ -1,0 +1,7 @@
+# Ignorar arquivos de log
+logs/
+*.log
+
+# Ignorar arquivos de configuração com informações sensíveis (se você criar um)
+config.env
+.env
