@@ -1,8 +1,8 @@
 #!/bin/bash
 
 URL_ALVO="https://www.google.com.br"
-WEBHOOK_URL="https://discord.com/api/webhooks/1400912630645919805/05iR_24u5TubqGD5JyxGwtWaN6AFGoauRgNYpHJw-BbCyk5YDyjJEIE0cD3RVbGYZVe1"
-LOG_FILE="/home/walace/Projetos/alertainfra/logs/api_monitor.log"
+WEBHOOK_URL="aqui voce coloca seu webhookurl"
+LOG_FILE="aqui voce coloca o diretorio da sua pasta de log"
 
 /usr/bin/mkdir -p "$(dirname "$LOG_FILE")"
 
